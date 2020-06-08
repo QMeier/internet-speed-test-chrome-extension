@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Internet Download Speed Test Plugin",
+  "description": "This extension will calculate your approximate internet download speed.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+
+  "permissions": [
+   "activeTab",
+   "storage"
+    ],
+
+  "icons":{
+    "128": "icon.png"
+    }
+}

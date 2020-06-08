@@ -1,0 +1,15 @@
+#checkSpeed {
+   height: 30px;
+   width: 130px;
+   background: none; /* This removes the default background */
+   color: #313131;
+   border: 1px solid #313131;
+
+   border-radius: 50px; /* This gives our button rounded edges */
+   font-size: 12px;
+   cursor: pointer;
+   text-align: center;
+}
+body {
+   background-image: linear-gradient(#385ae0,#1f3db2);
+}
