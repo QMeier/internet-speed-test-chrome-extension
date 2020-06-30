@@ -1,7 +1,5 @@
-//this chunk of code taken from https://stackoverflow.com/questions/5529718/how-to-detect-internet-speed-in-javascript
-
-var imageAddr = "https://reductress.com/wp-content/uploads/2018/10/hotshrek.jpg";
-var downloadSize = 295100; //bytes
+var imageAddr = "https://www.nps.gov/npgallery/GetAsset/766ee6b8-8352-4dca-a9dc-1f6ec1bab324/proxy/hires?";
+var downloadSize = 68600000; //bytes
 
 function ShowProgressMessage(msg) {
     if (console) {
@@ -50,7 +48,7 @@ function MeasureConnectionSpeed() {
 
     function showResults() {
         var duration = (endTime - startTime) / 1000;
-        var bitsLoaded = downloadSize * 16;
+        var bitsLoaded = downloadSize * 8;
         var speedBps = (bitsLoaded / duration).toFixed(2);
         var speedKbps = (speedBps / 1024).toFixed(2);
         var speedMbps = (speedKbps / 1024).toFixed(2);
